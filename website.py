@@ -1,6 +1,7 @@
 import media
 import fresh_tomatoes
-#movie instances created using media.Movie().
+
+# movie instances created using media.Movie().
 godfather = media.Movie("The Godfather",
                         "Story of a Corleone mafia family.",
                         "https://movietalkexpress.files.wordpress.com/2015/12/the-godfather.jpeg",
@@ -21,9 +22,12 @@ jumpstreet = media.Movie("21 Jump Street",
                          "Story of 2 undercover cops messing things up.",
                          "http://www.impawards.com/2012/posters/twenty_one_jump_street.jpg",
                          "https://www.youtube.com/watch?v=ISJR4rVO0TQ")
-haroldkumar = media.Movie("Harold and Kumar","Harold and Kumar and thier extreme adventure.",
+haroldkumar = media.Movie("Harold and Kumar",
+                          "Harold and Kumar and thier extreme adventure.",
                           "http://www.impawards.com/2004/posters/harold_and_kumar_go_to_white_castle.jpg",
                           "https://www.youtube.com/watch?v=cwP5E15VzRM")
-#An array of all the movie instances is created.
-movies = [godfather,tpoh,shawshank,assassins,jumpstreet,haroldkumar]
-fresh_tomatoes.open_movies_page(movies)     #The movies page is opened.
+
+# An array of all the movie instances is created.
+movies = [godfather, tpoh, shawshank, assassins, jumpstreet, haroldkumar]
+# The movies page is opened.
+fresh_tomatoes.open_movies_page(movies)
